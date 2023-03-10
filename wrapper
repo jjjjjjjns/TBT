@@ -1,0 +1,3 @@
+local wrapper = {
+	chat  = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+}
