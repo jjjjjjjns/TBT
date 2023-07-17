@@ -123,7 +123,6 @@ local Anim = Instance.new("Animation")
 Anim.AnimationId = "rbxassetid://"..AnimationId
 local k = Player.Character:FindFirstChildOfClass('Humanoid'):LoadAnimation(Anim)
 k:Play()
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("UNLEASH POWER OF HEAVEN","All")
 k:AdjustSpeed(1)
 wait(4.7)
 end
@@ -156,11 +155,7 @@ wait(0.3)
 if SayDramaticStuff then
 
 -- I watch anime so i know
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("THE POWER OF HEAVEN CHEATS.","All")
-wait(3)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("POWER OF DIMENSIONAL DIVERSION.","All")
-wait(2.3)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("HEAVEN SKILL, SUPERNOVA!!","All")
+
 end
 
 local IsFlying = true
